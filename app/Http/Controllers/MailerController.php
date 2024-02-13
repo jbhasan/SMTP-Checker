@@ -16,7 +16,7 @@ class MailerController extends Controller
 				config()->set('mail.mailers.smtp.port', $request->port);
 				config()->set('mail.mailers.smtp.encryption', $request->encryption);
 				config()->set('mail.mailers.smtp.username', $request->username);
-				config()->set('mail.mailers.smtp.password', 'rjtaglilrvdpwytv');
+				config()->set('mail.mailers.smtp.password', $request->password);
 				config()->set('mail.from.address', $request->username);
 				$details = [
 					'subject' => 'Mail from SMTP Checker :: '.$request->username.'',
