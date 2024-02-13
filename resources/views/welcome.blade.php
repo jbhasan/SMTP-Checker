@@ -595,6 +595,8 @@
 							<label class="input">
 								<select class="input__field" placeholder=" " name="encryption">
 									<option value="tls">TLS</option>
+                                    <option value="startls">STARTLS</option>
+									<option value="ssl">SSL</option>
 									<option value="null">NULL</option>
 									<option value="">EMPTY</option>
 								</select>
