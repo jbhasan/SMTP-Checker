@@ -12,11 +12,15 @@ SMTP connection checking and send mail checking.
 
 -   `git clone https://github.com/jbhasan/SMTP-Checker.git`
 -   `composer update`
+-   `cp .env.example .env`
+-   `php artisan key:generate`
 -   `php artisan serve`
 
 ## Credits
 
-[Md. Hasan Sayeed](https://github.com/jbhasan).
+[!["Md. Hasan Sayeed"](https://avatars.githubusercontent.com/u/20739060?v=4&size=80)](https://github.com/jbhasan)
+[!["Mahmud S. Raju"](https://avatars.githubusercontent.com/u/34059106?v=4&size=80)](https://github.com/theeMahmud)
+[!["Abu Jafar Al Farhad"](https://avatars.githubusercontent.com/u/8465213?v=4&size=80)](https://github.com/nbfarhad)
 
 ## License
 
