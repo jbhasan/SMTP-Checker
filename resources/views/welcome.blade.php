@@ -620,6 +620,13 @@
 
 						<div style="margin-bottom:10px;">
 							<label class="input">
+								<input class="input__field" type="email" placeholder=" " name="mail_from" required />
+								<span class="input__label">Mail From</span>
+							</label>
+						</div>
+
+						<div style="margin-bottom:10px;">
+							<label class="input">
 								<input class="input__field" type="email" placeholder=" " name="to" required />
 								<span class="input__label">Send To</span>
 							</label>
